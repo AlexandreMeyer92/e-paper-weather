@@ -81,7 +81,7 @@
 //   Italiano (Italia)               it_IT
 //   Dutch (Belgium)                 nl_BE
 //   Portuguese (Brazil)             pt_BR
-#define LOCALE en_US
+#define LOCALE fr_FR
 
 // UNITS
 // Define exactly one macro for each measurement type below.
@@ -90,8 +90,8 @@
 //   Metric   : Celsius
 //   Imperial : Fahrenheit
 // #define UNITS_TEMP_KELVIN
-// #define UNITS_TEMP_CELSIUS
-#define UNITS_TEMP_FAHRENHEIT
+#define UNITS_TEMP_CELSIUS
+// #define UNITS_TEMP_FAHRENHEIT
 
 // UNITS - WIND SPEED
 //   Metric   : Kilometers per Hour
@@ -106,11 +106,11 @@
 // UNITS - PRESSURE
 //   Metric   : Millibars
 //   Imperial : Inches of Mercury
-// #define UNITS_PRES_HECTOPASCALS
+#define UNITS_PRES_HECTOPASCALS
 // #define UNITS_PRES_PASCALS
 // #define UNITS_PRES_MILLIMETERSOFMERCURY
 // #define UNITS_PRES_INCHESOFMERCURY
-#define UNITS_PRES_MILLIBARS
+// #define UNITS_PRES_MILLIBARS
 // #define UNITS_PRES_ATMOSPHERES
 // #define UNITS_PRES_GRAMSPERSQUARECENTIMETER
 // #define UNITS_PRES_POUNDSPERSQUAREINCH
@@ -137,9 +137,9 @@
 //   Metric   : Millimeters
 //   Imperial : Inches
 // #define UNITS_DAILY_PRECIP_POP
-// #define UNITS_DAILY_PRECIP_MILLIMETERS
+#define UNITS_DAILY_PRECIP_MILLIMETERS
 // #define UNITS_DAILY_PRECIP_CENTIMETERS
-#define UNITS_DAILY_PRECIP_INCHES
+// #define UNITS_DAILY_PRECIP_INCHES
 
 // Hypertext Transfer Protocol (HTTP)
 // HTTP
@@ -306,7 +306,7 @@
 #define WIFI_PORTAL_AP_NAME "CrowPanel-Weather-Setup"
 
 // Firmware version string, shown on the OTA web page and serial log.
-#define FW_VERSION "1.8-crowpanel"
+#define FW_VERSION "1.8.1-crowpanel"
 
 // NON-VOLATILE STORAGE (NVS) NAMESPACE
 #define NVS_NAMESPACE "weather_epd"

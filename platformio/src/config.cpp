@@ -121,12 +121,11 @@ const unsigned HTTP_CLIENT_TCP_TIMEOUT = 10000; // ms
 // LOCATION
 // Initial latitude/longitude. These can be changed at runtime from the web UI
 // (city or postal code, geocoded via Open-Meteo) and are persisted to NVS.
-// lat=40.7128&lon=-74.0060 new york
-
-String LAT = "37.3541";
-String LON = "-121.9552";
-String CITY_STRING = "Santa Clara, CA 95051";
-String LOCATION_QUERY = "Santa Clara 95051";
+// 92130 Issy-les-Moulineaux, France
+String LAT = "48.82104";
+String LON = "2.27718";
+String CITY_STRING = "Issy-les-Moulineaux, France";
+String LOCATION_QUERY = "Issy-les-Moulineaux";
 
 
 // const String LAT = "37.3673";
@@ -137,7 +136,7 @@ String LOCATION_QUERY = "Santa Clara 95051";
 // TIME
 // For list of time zones see
 // https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
-String TIMEZONE = "PST8PDT,M3.2.0,M11.1.0";
+String TIMEZONE = "CET-1CEST,M3.5.0,M10.5.0/3";
 // Time format used when displaying sunrise/set times. (Max 11 characters)
 // For more information about formatting see
 // https://man7.org/linux/man-pages/man3/strftime.3.html
